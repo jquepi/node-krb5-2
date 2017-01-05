@@ -1,6 +1,6 @@
 # node-krb5
 
-[![dockeri.co](http://dockeri.co/image/lgatica/node-krb5)](https://registry.hub.docker.com/lgatica/node-krb5/)
+[![dockeri.co](http://dockeri.co/image/lgatica/node-krb5)](https://hub.docker.com/r/lgatica/node-krb5/)
 
 > Docker Image for node apps with alpine linux and native dependencies
 
