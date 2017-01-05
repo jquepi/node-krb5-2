@@ -1,4 +1,4 @@
-FROM lgatica/node-krb5:7.3.0
+FROM lgatica/node-krb5:7.4.0
 
 MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
 
