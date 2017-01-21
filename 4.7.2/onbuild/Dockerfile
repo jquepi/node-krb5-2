@@ -1,6 +1,4 @@
-FROM lgatica/node-krb5:4.7.1
-
-MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
+FROM lgatica/node-krb5:4.7.2
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
