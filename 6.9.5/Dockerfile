@@ -1,4 +1,4 @@
-FROM node:6.9.4-alpine
+FROM node:6.9.5-alpine
 
 LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 
