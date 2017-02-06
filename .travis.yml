@@ -33,7 +33,7 @@ after_success:
   - docker tag "lgatica/node-krb5:$NODE_PATCH_VERSION-onbuild" "lgatica/node-krb5:$NODE_MINOR_VERSION-onbuild"
   - docker tag "lgatica/node-krb5:$NODE_PATCH_VERSION-onbuild" "lgatica/node-krb5:$NODE_MAJOR_VERSION-onbuild"
   - if [ "$LATEST" == "latest" ]; then
-    docker tag "lgatica/node-krb5:$NODE_PATCH_VERSION" "lgatica/node-krb5:latest"
-    docker tag "lgatica/node-krb5:$NODE_PATCH_VERSION-onbuild" "lgatica/node-krb5:onbuild"
+    docker tag "lgatica/node-krb5:$NODE_PATCH_VERSION" "lgatica/node-krb5:latest";
+    docker tag "lgatica/node-krb5:$NODE_PATCH_VERSION-onbuild" "lgatica/node-krb5:onbuild";
     fi
   - docker push lgatica/node-krb5
