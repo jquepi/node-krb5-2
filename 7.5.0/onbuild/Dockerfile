@@ -1,4 +1,4 @@
-FROM lgatica/node-krb5:7.4.0
+FROM lgatica/node-krb5:7.5.0
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
