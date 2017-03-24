@@ -10,8 +10,8 @@ Supported tags and respective Dockerfile links
 - 7.5.0-onbuild, 7.5-onbuild, 7-onbuild, onbuild ([7.5/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/7.5.0/onbuild/Dockerfile))
 - 6.9.5, 6.9, 6 ([6.9/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/6.9.5/Dockerfile))
 - 6.9.5-onbuild, 6.9-onbuild, 6-onbuild ([6.9/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/6.9.5/onbuild/Dockerfile))
-- 4.8.0, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/4.8.0/Dockerfile))
-- 4.8.0-onbuild, 4.8-onbuild, 4-onbuild ([4.8/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/4.8.0/onbuild/Dockerfile))
+- 4.8.1, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/4.8.1/Dockerfile))
+- 4.8.1-onbuild, 4.8-onbuild, 4-onbuild ([4.8/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/4.8.1/onbuild/Dockerfile))
 
 ## Create a Dockerfile in your Node.js app project
 ```dockerfile
