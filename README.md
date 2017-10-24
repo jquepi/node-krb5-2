@@ -10,8 +10,8 @@ Supported tags and respective Dockerfile links
 
 - 8.1.2, 8.1, 8, latest ([8.1/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/8.1.2/Dockerfile))
 - 8.1.2-onbuild, 8.1-onbuild, 8-onbuild, onbuild ([8.1/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/8.1.2/onbuild/Dockerfile))
-- 6.11.3, 6.11, 6 ([6.11/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/6.11.3/Dockerfile))
-- 6.11.3-onbuild, 6.11-onbuild, 6-onbuild ([6.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/6.11.3/onbuild/Dockerfile))
+- 6.11.4, 6.11, 6 ([6.11/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/6.11.4/Dockerfile))
+- 6.11.4-onbuild, 6.11-onbuild, 6-onbuild ([6.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/6.11.4/onbuild/Dockerfile))
 - 4.8.4, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/4.8.4/Dockerfile))
 - 4.8.4-onbuild, 4.8-onbuild, 4-onbuild ([4.8/onbuild/Dockerfile](https://github.com/lgaticaq/node-krb5/blob/master/4.8.4/onbuild/Dockerfile))
 
