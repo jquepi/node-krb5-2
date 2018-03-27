@@ -1,11 +1,11 @@
-FROM lgatica/node-krb5:6.12.0@sha256:fd88001e5ef1489ac1bd4e13c61b7ba38c5eec147d233a267f57b739e37fa330
+FROM lgatica/node-krb5:9.9.0@sha256:bc35c7ec7bb64d10128d75faea7cd8cd708f4041628c75108f1cbd643229c0a6
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 ONBUILD ARG NODE_ENV
 ONBUILD ENV NODE_ENV $NODE_ENV
-ONBUILD COPY package.json yarn.* /usr/src/app/
+ONBUILD COPY package.json package-lock.* yarn.* /usr/src/app/
 ONBUILD RUN if [ -e yarn.lock ]; \
   then yarn && yarn cache clean; \
   else npm i && npm cache clean --force; fi && \
